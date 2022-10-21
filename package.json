@@ -1,6 +1,6 @@
 {
-  "name": "discord-speaker-detection",
-  "version": "0.0.3",
+  "name": "discord-speaker-detect",
+  "version": "0.1.0",
   "description": "Extension for making discord speech recognition bots.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
