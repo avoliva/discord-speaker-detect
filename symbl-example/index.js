@@ -1,6 +1,6 @@
 const { Client, GatewayIntentBits } = require("discord.js");
 const { joinVoiceChannel, getGroups, getVoiceConnection } = require("@discordjs/voice");
-const { addSpeechEvent } = require("discord-speaker-detection");
+const { addSpeechEvent } = require("discord-speaker-detect");
 const { sdk } = require("@symblai/symbl-js");
 const { v4 } = require('uuid');
 require('dotenv').config()
