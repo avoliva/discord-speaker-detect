@@ -1,35 +1,27 @@
 {
   "name": "discord-speaker-detect",
   "version": "0.1.0",
-  "description": "Extension for making discord speech recognition bots.",
+  "description": "Simple API for detecting speech",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "dev": "nodemon dist/index.js",
     "watch": "tsc -w",
-    "doc": "typedoc",
-    "build": "tsc --project tsconfig.build.json",
-    "test": "ts-mocha --exit --require source-map-support/register tests/**/*.test.ts ",
-    "coverage": "nyc npm run test",
-    "lint": "eslint src/ && tsc --noEmit",
-    "prepare": "husky install",
-    "prepublishOnly": "npm run build"
+    "build": "tsc --project tsconfig.build.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rei-x/discord-speech-recognition.git"
+    "url": "git+https://github.com/avoliva/discord-speaker-detect.git"
   },
   "keywords": [
     "discord.js",
     "discord",
-    "speechrecognition"
+    "speakerdetection"
   ],
-  "author": "Rei-x",
+  "author": "Adam Voliva",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Rei-x/discord-speech-recognition/issues"
+    "url": "https://github.com/avoliva/discord-speaker-detect/issues"
   },
-  "homepage": "https://discordsr.netlify.app/",
   "engines": {
     "node": ">=16.6.0"
   },
