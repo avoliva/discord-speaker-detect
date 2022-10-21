@@ -1,0 +1,24 @@
+{
+  "name": "simplebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/voice": "^0.13.0",
+    "@symblai/symbl-js": "^1.4.8",
+    "@symblai/symbl-web-sdk": "^1.0.6",
+    "discord-speaker-detection": "^0.0.3",
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.3",
+    "sodium": "^3.0.2",
+    "sodium-native": "^3.3.0",
+    "uuid": "^9.0.0"
+  }
+}
