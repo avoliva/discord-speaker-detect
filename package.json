@@ -1,6 +1,6 @@
 {
   "name": "discord-speaker-detect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple API for detecting speech",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
